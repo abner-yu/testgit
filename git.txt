@@ -1,9 +1,10 @@
-git ѧϰ
+﻿git 学习
 
-һ�������汾��
-	1����D���´���testgitĿ¼
-	2������Ŀ¼��ʹ����� git init  ʹ��Ŀ¼��Ϊgit�ɹ����ֿ�
-���������ļ����汾��
-	1��ʹ������:  git add �ļ���  �������ݴ���
-	2��ʹ����� git commit -m "ע������"  �ύ���ֿ�
-	3��ʹ������:  git status  �鿴�ύ״̬
+一、创建版本库
+	1、在D盘下创建testgit目录
+	2、进入目录，使用命令： git init  使该目录成为git可管理仓库
+二、添加文件到版本库
+	1、使用命令:  git add 文件名  添加至暂存区
+	2、使用命令： git commit -m "注释内容"  提交至仓库
+	3、使用命令:  git status  查看提交状态
+	4、使用命令： git diff 文件名 查看文件修改过的内容
