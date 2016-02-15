@@ -10,3 +10,8 @@
 	4、使用命令： git diff 文件名 查看文件修改过的内容
 三、版本退回
 	1、使用命令： git log  查看历史记录
+	   使用命令： git log --pretty=ineline  查看简化历史记录
+	2、使用命令： git reset --hard HEAD^ 退回到上一版本
+	   使用命令： git reset --haed 版本号  退回到指定版本号
+	3、使用命令： git reflog  查看完整历史记录（包含退回/撤销版本）
+	
