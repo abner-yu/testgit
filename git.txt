@@ -40,3 +40,6 @@
 	2、合并分支
 		(1)、使用命令：	git checkout master  切换到分支master上
 		(2)、使用命令：	git merge dev  把分支dev中的内容合并到master上
+	3、删除分支
+		使用命令：	git branch -d dev   删除分支dev
+		
