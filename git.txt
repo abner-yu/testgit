@@ -37,3 +37,6 @@
 		使用命令： git checkout -b dev
 		-b参数表示创建并切换，相当于2条命令：git branch dev  和 git checkout dev
 		使用命令:  git branch  查看分支
+	2、合并分支
+		(1)、使用命令：	git checkout master  切换到分支master上
+		(2)、使用命令：	git merge dev  把分支dev中的内容合并到master上
