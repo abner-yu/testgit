@@ -30,3 +30,10 @@
 	git remote add origin https://github.com/tugenhua0707/testgit.git 关联本地与github仓库
 	5、把本地库的内容推送到远程
 	使用命令： git push -u origin master
+	6、从远程克隆到本地
+	使用命令：git clone https://github.com/abner-yu/testgit2
+七、创建与合并分支
+	1、创建分支
+		使用命令： git checkout -b dev
+		-b参数表示创建并切换，相当于2条命令：git branch dev  和 git checkout dev
+		使用命令:  git branch  查看分支
